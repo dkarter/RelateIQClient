@@ -1,0 +1,37 @@
+{
+	"objects": [{
+		"id": "listitem1",
+		"listId": "list2id",
+		"version": 1,
+		"createdDate": 1421177183000,
+		"modifiedDate": 1421795655887,
+		"name": "hello+test@example.com",
+		"accountId": null,
+		"contactIds": [
+			"contactid"
+		],
+		"fieldValues": {
+			"0": [{
+				"raw": "3"
+			}]
+		},
+		"linkedItemIds": {}
+	}, {
+		"id": "listitem2",
+		"listId": "list2id",
+		"version": 1,
+		"createdDate": 1421177383000,
+		"modifiedDate": 1421795654793,
+		"name": "hello@example.com",
+		"accountId": null,
+		"contactIds": [
+			"contactid"
+		],
+		"fieldValues": {
+			"0": [{
+				"raw": "2"
+			}]
+		},
+		"linkedItemIds": {}
+	}]
+}

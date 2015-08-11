@@ -1,0 +1,72 @@
+{
+  "id": "listitemid",
+  "listId": "list2id",
+  "version": 1,
+  "createdDate": 1417755155000,
+  "modifiedDate": 1421866566579,
+  "name": "Mack Koch",
+  "accountId": "accountid",
+  "contactIds": [
+    "contactid1",
+    "contactid2"
+  ],
+  "fieldValues": {
+    "0": [
+      {
+        "raw": "3"
+      }
+    ],
+    "15": [
+      {
+        "raw": "Boulder"
+      }
+    ],
+    "25": [
+      {
+        "raw": "5"
+      }
+    ],
+    "27": [
+      {
+        "raw": "30000"
+      }
+    ],
+    "40": [
+      {
+        "raw": "1417755155526"
+      }
+    ],
+    "43": [
+      {
+        "raw": "ec805c1d1effbc2768ce94108e30eeae74e15931"
+      }
+    ],
+    "44": [
+      {
+        "raw": "1"
+      }
+    ],
+    "45": [
+      {
+        "raw": "3"
+      }
+    ],
+    "46": [
+      {
+        "raw": "18"
+      }
+    ]
+  },
+  "linkedItemIds": {
+    "5ff139a60e6220c263558fbc0f26786050a70b34.accounts": [
+      {
+        "itemId": "4d7f9d97f6c00d41fcbfffad489f60f9d8cbfeb1"
+      }
+    ],
+    "list.cd669e1c0fa10a6a98639489807851415d3499d1": [
+      {
+        "itemId": "d7e41e76a945d9811aa7981fdd6a4ee5c28fdc05"
+      }
+    ]
+  }
+}

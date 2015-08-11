@@ -1,0 +1,46 @@
+{
+  "id": "contactid",
+  "modifiedDate": 1424713865596,
+  "properties": {
+    "address": [
+      {
+        "value": "688 Dink rest, East Lu, Z2K 8OW",
+        "metadata": {}
+      }
+    ],
+    "company": [
+      {
+        "value": "Bolstr",
+        "metadata": {}
+      },
+      {
+        "value": "Bolstr, Inc.",
+        "metadata": {}
+      }
+    ],
+    "phone": [
+      {
+        "value": "+44 (0)5426658700",
+        "metadata": {}
+      }
+    ],
+    "name": [
+      {
+        "value": "Kipp Rice",
+        "metadata": {}
+      }
+    ],
+    "email": [
+      {
+        "value": "gulgowski.devyn@example.com",
+        "metadata": {}
+      }
+    ],
+    "liurl": [
+      {
+        "value": "https://www.linkedin.com/in/doriankarter",
+        "metadata": {}
+      }
+    ]
+  }
+}
