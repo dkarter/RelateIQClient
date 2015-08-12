@@ -19,7 +19,6 @@ require 'relateiq'
 
 WebMock.disable_net_connect!(allow: /codeclimate.com/)
 
-ENV['CODECLIMATE_REPO_TOKEN'] = '40786f3d7051e87923f51671d27e8d375a8c2fb765d4bbda2ac9b38d4301a40a'
 CodeClimate::TestReporter.start
 
 RSpec.configure do |config|
