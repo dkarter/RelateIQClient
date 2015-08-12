@@ -166,3 +166,6 @@ DEPENDENCIES
   terminal-notifier-guard
   webmock
   zenflow
+
+BUNDLED WITH
+   1.10.0
