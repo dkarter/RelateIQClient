@@ -21,6 +21,7 @@ group :test do
   # code coverage
   gem 'simplecov', require: false
   gem 'simplecov-json', require: false
+  gem 'cadre'
 
   # Guard stuff
   gem 'guard'
