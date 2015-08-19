@@ -11,7 +11,6 @@ SimpleCov.start
 require 'codeclimate-test-reporter'
 require 'webmock/rspec'
 require 'pry'
-require 'terminal-notifier-guard'
 
 require 'bundler/setup'
 Bundler.setup
