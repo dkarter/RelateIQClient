@@ -4,7 +4,6 @@ require 'simplecov-json'
 require 'cadre/simplecov'
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
   SimpleCov::Formatter::JSONFormatter,
-  SimpleCov::Formatter::HTMLFormatter,
   Cadre::SimpleCov::VimFormatter
 ]
 SimpleCov.start
