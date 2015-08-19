@@ -17,9 +17,7 @@ require 'terminal-notifier-guard'
 require 'bundler/setup'
 Bundler.setup
 
-$LOAD_PATH.unshift File.dirname(__FILE__)
-$LOAD_PATH << File.join(File.dirname(__FILE__), '..', 'lib')
-$LOAD_PATH << File.join(File.dirname(__FILE__), '..', 'lib', 'relateiq')
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 
 require 'relateiq'
 

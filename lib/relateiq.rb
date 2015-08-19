@@ -1,3 +1,4 @@
+require 'relateiq/version'
 require 'rest_client'
 
 require 'relateiq/service_factory'
