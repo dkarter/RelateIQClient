@@ -49,3 +49,7 @@ tags
 
 # mac shit..
 .DS_Store
+
+# cadre
+errors.err
+.cadre

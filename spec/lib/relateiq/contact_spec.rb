@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'contact'
 
 RSpec.describe RelateIq::Contact do
   let(:contacts_url) { 'https://test.relateiq.com/contacts' }
