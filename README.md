@@ -42,7 +42,7 @@ end
 RelateIq::List.find_by_title('leads')
 ```
 
-Note: case insensitive
+*Note:* case insensitive
 
 
 #### Find a list by id
@@ -57,7 +57,7 @@ RelateIq::List.find('xxxYYYaaaa')
 RelateIq::List.all
 ```
 
-Note: this gets stored in cache every time it is called (or when any find
+*Note:* this gets stored in cache every time it is called (or when any find
 command is called) to clear the cache use the following
 
 ```ruby
@@ -85,7 +85,7 @@ list_item_hash = {
 list.upsert_item(list_item_hash)
 ```
 
-Note: this is where the magic happens with this gem: using the list information
+*Note:* this is where the magic happens with this gem: using the list information
 pulled from the List.all endpoint that we cached before we can now automatically
 map field names to values - this is all done for you behind the scenes so you
 can avoid storing ids for fields.
@@ -95,13 +95,19 @@ list that you can use to test integration and build out new features.
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+After checking out the repo, run `bundle install` to install dependencies. Then,
+run `rspec spec` to run the tests. You can also run `bundle console` for an interactive prompt that will allow you to experiment.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+To install this gem onto your local machine, first build it using `gem build
+relateiq.gemspec`. When the gem is built you can install it directly using `gem
+install ./relateiq-0.1.0.gem`.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/relateiq.
+Bug reports and pull requests are welcome on GitHub at
+https://github.com/dkarter/RelateIQClient.
+
+All pull requests are expected to have specs and be well tested.
 
 
 ## License
