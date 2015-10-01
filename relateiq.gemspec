@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.executables   = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
   s.require_paths = [ 'lib' ]
 
-  s.add_dependency 'rest-client', '~> 1.7'
+  s.add_dependency 'rest-client', '~> 1.8'
 
   s.add_development_dependency 'bundler', '~> 1.7'
   s.add_development_dependency 'rake', '~> 10.0'
