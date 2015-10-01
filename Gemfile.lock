@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    relateiq_client (0.1.1)
+    relateiq_client (0.1.2)
       rest-client (~> 1.8)
 
 GEM
