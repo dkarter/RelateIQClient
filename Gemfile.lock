@@ -49,7 +49,7 @@ GEM
       binding_of_caller (>= 0.7)
       pry (>= 0.9.11)
     rainbow (2.0.0)
-    rake (10.4.2)
+    rake (13.0.3)
     rest-client (1.8.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
@@ -109,7 +109,7 @@ DEPENDENCIES
   codeclimate-test-reporter
   pry (~> 0.10)
   pry-stack_explorer (~> 0.4.9)
-  rake (~> 10.0)
+  rake (~> 13.0)
   relateiq_client!
   rspec (~> 3.1)
   rubocop
